@@ -25,9 +25,12 @@
     margin: 0px;
     align-items: center;
     background-color: black;
+    
  }
 nav{
     background-color: black;
+    
+
 }
  nav ul{
     display: flex;
@@ -184,5 +187,80 @@ font-family: 'Poppins';
    margin-left: 6px;
    margin-top: -11px;
  }
+ .hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+}
+
+
+
+ @media only screen and (max-width: 768px) {
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    gap: inherit;
+    background-color: black;
+    color:#b578ff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow:
+        0 10px 27px rgba(0, 0, 0, 0.05);
+}
+
+.nav-menu.active {
+    left: 0;
+    color:#b578ff;
+}
+
+.nav-item {
+    margin: 2.5rem 0;
+    color: #b578ff;
+}
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+    color: #b578ff;
+}
+
  
 
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+ }
+
+ @media (max-width: 1000px){
+  .cards{
+    max-width:920px;
+    flex-direction: column;
+    gap: 20px;
+  }
+ }
+
+ @media (max-width: 500px){
+  .right-col h1{
+  left:auto;
+  }
+ }
