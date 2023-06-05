@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap');
 
  *{
     margin:0px;
@@ -214,7 +214,8 @@ font-family: 'Poppins';
     flex-direction: column;
    
     height: auto;
-    width: fit-content;
+    width: auto;
+    margin: 0 auto;
   }
 }
 
@@ -232,7 +233,8 @@ font-family: 'Poppins';
     flex-direction: column;
     gap: 5px;
     height: auto;
-    width: fit-content;
+    width: auto;
+    margin: 0 auto;
   }
   .skills{
     width: auto;
@@ -271,7 +273,8 @@ header{
     flex-direction: column;
     gap: 5px;
     height: auto;
-    width: fit-content;
+    width: auto;
+    margin: 0 auto;
   }
  }
 
@@ -295,7 +298,8 @@ header{
     flex-direction: column;
     gap: 5px;
     height: auto;
-    width: fit-content;
+    width: auto;
+    margin: 0 auto;
   }
   .skills{
     width: auto;
@@ -306,6 +310,11 @@ header{
   nav ul{
     justify-content: space-around;
     gap: 27px;
+  }
+
+  .cards{
+    width: auto;
+    margin: 0 auto;
   }
 }
 
@@ -320,7 +329,8 @@ header{
  
 }
 .cards{
-  width:auto;
+  width: auto;
+  margin: 0 auto;
 }
 main{
   flex-direction: column;
