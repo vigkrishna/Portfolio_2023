@@ -317,6 +317,15 @@ header{
     width: auto;
     margin: 0 auto;
   }
+ #card1{
+    margin: 115px;
+  }
+  #card2{
+    margin: 114px;
+  }
+  #card3{
+    margin: 115px;
+  }
 }
 
 
